@@ -1,0 +1,13 @@
+**Recursion**
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function.
+In simple,A function that calls itself is called a Recursive Function
+Recursion is a programming technique in which a function calls itself to solve a smaller instance of the same problem until a base condition is met.
+It is often used to solve problems that can be broken down into smaller, similar subproblems.
+
+Recursion can be classified into 5 types:
+1. Head Recursion:- A function that makes a recursive call as its first operation is called Head Recursion. 
+2. Tail Recursion:- A function that makes a recursive call as its last operation is called Tail Recursion.
+3. Direct Recursion:- When a function calls another function and that function calls the first function, it is called Indirect Recursion.
+4. Indirect Recursion :- This is typified by the factorial implementation where the methods call itself
+5. Tree Recursion:- A function that makes more than one recursive call is called Tree Recursion.
+

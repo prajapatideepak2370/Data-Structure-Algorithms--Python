@@ -1,0 +1,1 @@
+# Direct Recursion = This is typified by the factorial implementation where the methods call itself
