@@ -1,11 +1,9 @@
-# Make a function that implements the selection sort algorithm
 # Selection sort is a simple sorting algorithm that divides the input list into two parts: a sorted and an unsorted part. It repeatedly selects the smallest (or largest) element from the unsorted part and moves it to the end of the sorted part.
 # The algorithm maintains two subarrays within the original array: the left subarray which is sorted and the right subarray which is unsorted. Initially, the sorted subarray is empty and the unsorted subarray contains all the elements. The algorithm iteratively selects the smallest element from the unsorted subarray and swaps it with the leftmost unsorted element, effectively growing the sorted subarray by one element.
 # The process continues until the entire array is sorted.
 # Selection sort is not a stable sorting algorithm because it may change the relative order of equal elements. For example, if two equal elements are present in the array, their order may be changed after sorting.
 
 nums = [7, 5, 2, 4, 3, 9, 1, 6, 8]
-
 def selection_sort(arr):
     n = len(arr)
     for i in range(n):
