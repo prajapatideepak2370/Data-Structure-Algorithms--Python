@@ -36,5 +36,5 @@ def merge(left, right):
 
 print(merge_sort(arr))
 
-# Time Complexity: O(n log n) in all cases (best, average, and worst) because the array is always divided in half and then merged.
+# Time Complexity: O(nlogn) in all cases (best, average, and worst) because the array is always divided in half and then merged.
 # Space Complexity: O(n) because we are using additional space to store the left and right subarrays during the merge process.
