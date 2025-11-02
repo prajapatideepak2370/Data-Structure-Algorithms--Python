@@ -17,5 +17,3 @@ if n == div_sum:
     print("A number is a Perfect number")
 else:
     print("A number is not a Perfect number")
-
-
