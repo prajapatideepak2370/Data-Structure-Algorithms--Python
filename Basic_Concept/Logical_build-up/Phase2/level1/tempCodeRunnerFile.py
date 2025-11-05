@@ -1,0 +1,1 @@
+print("The Factorial of Number is: ", fac)

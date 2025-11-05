@@ -3,5 +3,12 @@
 def func_a(count_a):
     if count_a == 0:
         return
-    print("Function A is called")
-    # func_b(count_a - 1)
+    print("Function A is Called")
+    func_b(count_a - 1)
+
+def func_b(count_b):
+    if count_b == 0:
+        return
+    print("Function B is Called ")
+
+func_a(2)
