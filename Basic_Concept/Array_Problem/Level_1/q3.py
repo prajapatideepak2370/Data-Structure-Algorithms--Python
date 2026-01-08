@@ -5,5 +5,5 @@ avg = 0
 sum = 0
 for i in range(len(arr)):
     sum += arr[i]
-    avg = sum / len(arr)
+avg = sum / len(arr)
 print(avg)

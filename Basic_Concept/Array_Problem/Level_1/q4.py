@@ -1,5 +1,4 @@
 # Find the maximum element in an array. 
-
 arr = [3,23,24,31,20,15,25]
 
 mx = arr[0]
