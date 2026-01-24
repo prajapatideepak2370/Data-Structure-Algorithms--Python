@@ -27,7 +27,7 @@ def betterApproach(nums, k):
 
 def OptimalApproach(nums, k):
     prefixsumCnt= {}
-    prefixSum= 0
+    prefixSum= 0  
     cnt = 0
     prefixsumCnt[0] = 1
     for i in range(len(nums)):
